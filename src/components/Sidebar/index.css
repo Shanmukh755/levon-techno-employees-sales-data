@@ -1,0 +1,44 @@
+.sidebar-container {
+    left: 0;
+    width: 200px;
+    min-height: 100vh;
+    padding: 0.3rem 1rem;
+    transition: background-color 0.3s;
+}
+
+.sidebar-container.light {
+    background-color: #f3f5fd;
+}
+
+.sidebar-container.dark {
+    background-color: rgb(1, 1, 39);
+}
+
+.sidebar-head {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.light-text {
+    color: rgb(1, 1, 39);
+}
+
+.dark-text {
+    color: #f3f5fd;
+}
+
+a {
+    text-decoration: none;
+}
+

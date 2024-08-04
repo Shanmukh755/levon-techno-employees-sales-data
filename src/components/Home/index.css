@@ -1,0 +1,48 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+}
+
+.home-container.light {
+    background-color: #ffffff;
+}
+
+.home-container.dark {
+    background-color: rgb(38, 38, 79);
+}
+
+.home-body-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-cont {
+    width: 100%;
+    margin-left: 10px;
+    min-height: 100vh;
+    padding: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dashboard-cont.light {
+    background-color: #f3f5fd;
+}
+
+.dashboard-cont.dark {
+    background-color: rgb(1, 1, 39);
+}
+
+.pp1 {
+    color: #fff;
+}
+
+.pp2 {
+    color: rgb(1, 1, 39);
+}
+@media (max-width: 576px){
+    .dashboard-cont{
+        margin-left: 0;
+    }
+}

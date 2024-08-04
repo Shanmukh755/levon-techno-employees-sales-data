@@ -1,0 +1,76 @@
+/* Common styles */
+.user-p-cont {
+    border-radius: 5px;
+    padding: 1rem;
+    width: 350px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+    width: 316px;
+}
+
+.user-list-item {
+    padding: 0.7rem 1.7rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 94%;
+    margin-bottom: 1rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 1.6rem;
+}
+
+.name {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.status {
+    color: rgb(9, 207, 9);
+}
+
+.lead {
+    font-size: 0.8rem;
+}
+.lead1{
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+/* Light Mode */
+
+.light-mode{
+    color: rgb(1, 1, 39);
+    background-color: #ffffff;
+}
+
+.light-mode1{
+    background-color: #f3f5fd;
+}
+/* Dark Mode */
+
+.dark-mode{
+    background-color: rgb(38, 38, 79);
+}
+
+.dark-mode1{
+    background-color: rgb(1, 1, 39);
+}
+

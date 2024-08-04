@@ -1,0 +1,148 @@
+.overview-cont {
+    padding: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.overview-cont.light {
+    background-color: #f3f5fd;
+    color: #000;
+}
+
+.overview-cont.dark {
+    background-color: rgb(1, 1, 39);
+    color: #fff;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    width: 200px;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.top1.light {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.top1.dark {
+    background-color: rgb(38, 38, 79);
+    color: #fff;
+}
+
+.i1 {
+    font-size: 35px;
+}
+
+.p1 {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.p2 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+.charts-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.line-chart-cont,
+.barchart-cont,
+.piechart-cont {
+    border-radius: 5px;
+    padding: 1rem 0.5rem;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.line-chart-cont.light,
+.barchart-cont.light,
+.piechart-cont.light {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.line-chart-cont.dark,
+.barchart-cont.dark,
+.piechart-cont.dark {
+    background-color: rgb(38, 38, 79);
+    color: #fff;
+}
+
+.xx {
+    font-size: 0.8rem;
+}
+
+.linechart {
+    margin-top: 1rem;
+}
+
+.sales-h {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.pp1 {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 1;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+.pp1.light {
+    color: #000;
+}
+
+.pp1.dark {
+    color: #fff;
+}
+
+@media (max-width: 576px){
+    .top1{
+        width: 160px;
+    }
+    .top-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .i1{
+        font-size: 30px;
+    }
+    .charts-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .line-chart-cont,
+    .barchart-cont,
+    .piechart-cont {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+}
